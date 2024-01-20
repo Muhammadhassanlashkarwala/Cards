@@ -1,0 +1,102 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background:linear-gradient(to right, pink 0%, aqua 82%) ;
+}
+
+.class-1{
+    background: white;
+    border: 2px solid white;
+    border-radius: 5%;
+    height: 412px;
+    width: 262px;
+    margin: 6%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: inline-block;
+transition: 0.2s ease-in-out;
+}
+.class-1:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+img{
+    height: 180px;
+    width: 100%;
+padding-bottom: 10px;
+border-radius: 5%;
+}
+h3{
+  padding: 0px 7px 10px 5px;
+}
+p{
+    padding: 0px 5px;
+    text-align: justify;
+}
+.logo-image{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.normal{
+   margin-left: 45px;
+   margin-top: -45px;
+   font-size: smaller;
+}
+.class-2{
+    background: white;
+    border: 2px solid white;
+    border-radius: 5%;
+    height: 412px;
+    width: 262px;
+    margin: 6%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: inline-block;
+transition: 0.2s ease-in-out;
+}
+.class-2:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+.class-3{
+    background: white;
+    border: 2px solid white;
+    border-radius: 5%;
+    height: 413px;
+    width: 262px;
+    margin:  6%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: inline-block;
+transition: 0.2s ease-in-out;
+}
+.class-3:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+button{
+    padding: 2px 8px;
+    margin: 0px 8px 10px 8px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgb(54, 160, 226);
+    color: white;
+}
+.button-2{
+    padding: 2px 8px;
+    margin: 0px 8px 10px 8px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgb(110, 110, 27);
+    color: white;
+}
+.button-3{
+    padding: 2px 8px;
+    margin: 0px 8px 10px 8px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: red;
+    color: white;
+}
